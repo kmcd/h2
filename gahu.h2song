@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
  <version>0.9.6-beta1</version>
- <bpm>110</bpm>
+ <bpm>180</bpm>
  <volume>0.73</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
@@ -3097,7 +3097,19 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>26</instrument>
+     <instrument>27</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>27</instrument>
      <note_off>false</note_off>
     </note>
     <note>
@@ -3132,6 +3144,30 @@
      <note_off>false</note_off>
     </note>
     <note>
+     <position>48</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>3</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>27</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
      <position>144</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
@@ -3151,7 +3187,7 @@
    <size>192</size>
    <noteList>
     <note>
-     <position>24</position>
+     <position>48</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3163,55 +3199,7 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>36</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>72</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>120</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>132</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>168</position>
+     <position>144</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3228,32 +3216,7 @@
    <name>ride 2</name>
    <category>not_categorized</category>
    <size>192</size>
-   <noteList>
-    <note>
-     <position>72</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>168</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>22</instrument>
-     <note_off>false</note_off>
-    </note>
-   </noteList>
+   <noteList/>
   </pattern>
   <pattern>
    <name>kick 4 pulse 13</name>
@@ -3445,12 +3408,12 @@
   <group>
    <patternID>snare 1</patternID>
    <patternID>ride 1</patternID>
-   <patternID>kick 4 pulse 13</patternID>
+   <patternID>kick 1 3</patternID>
   </group>
   <group>
    <patternID>snare 2</patternID>
+   <patternID>kick 1 3</patternID>
    <patternID>ride 1</patternID>
-   <patternID>kick 4 pulse 13</patternID>
   </group>
  </patternSequence>
  <ladspa>
