@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
  <version>0.9.6-beta1</version>
- <bpm>125</bpm>
+ <bpm>100</bpm>
  <volume>0.73</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
@@ -3185,7 +3185,32 @@
    <name>snare 1</name>
    <category>not_categorized</category>
    <size>192</size>
-   <noteList/>
+   <noteList>
+    <note>
+     <position>48</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>1</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>1</instrument>
+     <note_off>false</note_off>
+    </note>
+   </noteList>
   </pattern>
   <pattern>
    <name>snare 2</name>
@@ -3199,9 +3224,9 @@
    <size>192</size>
    <noteList>
     <note>
-     <position>0</position>
+     <position>24</position>
      <leadlag>0</leadlag>
-     <velocity>0.4</velocity>
+     <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3211,9 +3236,9 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>48</position>
+     <position>120</position>
      <leadlag>0</leadlag>
-     <velocity>0.4</velocity>
+     <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3223,9 +3248,21 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>144</position>
+     <position>132</position>
      <leadlag>0</leadlag>
-     <velocity>0.45</velocity>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>22</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>168</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3240,44 +3277,7 @@
    <name>ride 2</name>
    <category>not_categorized</category>
    <size>192</size>
-   <noteList>
-    <note>
-     <position>48</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>16</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>72</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>6</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>144</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>16</instrument>
-     <note_off>false</note_off>
-    </note>
-   </noteList>
+   <noteList/>
   </pattern>
   <pattern>
    <name>kick</name>
@@ -3287,7 +3287,7 @@
     <note>
      <position>0</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.86</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3305,13 +3305,13 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>0</instrument>
+     <instrument>3</instrument>
      <note_off>false</note_off>
     </note>
     <note>
-     <position>72</position>
+     <position>48</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.22</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3335,7 +3335,7 @@
     <note>
      <position>144</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.25</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>

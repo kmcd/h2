@@ -349,7 +349,7 @@
    <id>22</id>
    <name>Cabasa Cut</name>
    <volume>0.8</volume>
-   <isMuted>false</isMuted>
+   <isMuted>true</isMuted>
    <pan_L>1</pan_L>
    <pan_R>1</pan_R>
    <gain>1</gain>
@@ -543,7 +543,7 @@
    <id>11</id>
    <name>Cowbell</name>
    <volume>0.568965</volume>
-   <isMuted>false</isMuted>
+   <isMuted>true</isMuted>
    <pan_L>1</pan_L>
    <pan_R>0.32</pan_R>
    <gain>1</gain>
@@ -1203,7 +1203,7 @@
    <id>25</id>
    <name>Clave</name>
    <volume>1</volume>
-   <isMuted>false</isMuted>
+   <isMuted>true</isMuted>
    <pan_L>1</pan_L>
    <pan_R>0.36</pan_R>
    <gain>1</gain>
@@ -3296,7 +3296,55 @@
      <note_off>false</note_off>
     </note>
     <note>
+     <position>0</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>25</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>48</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>25</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
      <position>72</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>84</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>25</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>120</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3316,7 +3364,7 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>0</instrument>
+     <instrument>25</instrument>
      <note_off>false</note_off>
     </note>
     <note>
@@ -3329,6 +3377,18 @@
      <key>C0</key>
      <length>-1</length>
      <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>156</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>25</instrument>
      <note_off>false</note_off>
     </note>
    </noteList>
