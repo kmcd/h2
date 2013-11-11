@@ -129,7 +129,7 @@
    <id>26</id>
    <name>Woodblock Hi</name>
    <volume>0.659483</volume>
-   <isMuted>true</isMuted>
+   <isMuted>false</isMuted>
    <pan_L>0.4</pan_L>
    <pan_R>1</pan_R>
    <gain>1</gain>
@@ -239,7 +239,7 @@
    <id>27</id>
    <name>Woodblock Lo</name>
    <volume>0.737069</volume>
-   <isMuted>true</isMuted>
+   <isMuted>false</isMuted>
    <pan_L>0.4</pan_L>
    <pan_R>1</pan_R>
    <gain>1</gain>
@@ -3072,9 +3072,64 @@
  </instrumentList>
  <patternList>
   <pattern>
-   <name>snare 1</name>
+   <name>intro</name>
    <category>not_categorized</category>
-   <size>96</size>
+   <size>192</size>
+   <noteList>
+    <note>
+     <position>32</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>64</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>23</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>176</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+   </noteList>
+  </pattern>
+  <pattern>
+   <name>verse</name>
+   <category>not_categorized</category>
+   <size>192</size>
    <noteList>
     <note>
      <position>16</position>
@@ -3109,7 +3164,62 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>26</instrument>
+     <instrument>23</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>112</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>23</instrument>
+     <note_off>false</note_off>
+    </note>
+   </noteList>
+  </pattern>
+  <pattern>
+   <name>chorus</name>
+   <category>not_categorized</category>
+   <size>192</size>
+   <noteList>
+    <note>
+     <position>16</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>32</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
      <note_off>false</note_off>
     </note>
     <note>
@@ -3133,11 +3243,35 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>26</instrument>
+     <instrument>23</instrument>
      <note_off>false</note_off>
     </note>
     <note>
-     <position>80</position>
+     <position>112</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>23</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>176</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3151,24 +3285,12 @@
    </noteList>
   </pattern>
   <pattern>
-   <name>snare 2</name>
+   <name>bridge</name>
    <category>not_categorized</category>
-   <size>96</size>
+   <size>192</size>
    <noteList>
     <note>
-     <position>16</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>27</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>16</position>
+     <position>0</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3188,23 +3310,11 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>26</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>48</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
      <instrument>23</instrument>
      <note_off>false</note_off>
     </note>
     <note>
-     <position>80</position>
+     <position>96</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3212,11 +3322,11 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>26</instrument>
+     <instrument>24</instrument>
      <note_off>false</note_off>
     </note>
     <note>
-     <position>80</position>
+     <position>128</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3224,7 +3334,19 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>23</instrument>
+     <instrument>24</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>160</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>24</instrument>
      <note_off>false</note_off>
     </note>
    </noteList>
@@ -3232,7 +3354,7 @@
   <pattern>
    <name>ride 1</name>
    <category>not_categorized</category>
-   <size>96</size>
+   <size>192</size>
    <noteList>
     <note>
      <position>16</position>
@@ -3270,18 +3392,48 @@
      <instrument>22</instrument>
      <note_off>false</note_off>
     </note>
+    <note>
+     <position>112</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>22</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>144</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>22</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>176</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>22</instrument>
+     <note_off>false</note_off>
+    </note>
    </noteList>
   </pattern>
   <pattern>
-   <name>ride 2</name>
+   <name>long bell timeline</name>
    <category>not_categorized</category>
-   <size>96</size>
-   <noteList/>
-  </pattern>
-  <pattern>
-   <name>timeline 1</name>
-   <category>not_categorized</category>
-   <size>96</size>
+   <size>192</size>
    <noteList>
     <note>
      <position>0</position>
@@ -3319,15 +3471,8 @@
      <instrument>25</instrument>
      <note_off>false</note_off>
     </note>
-   </noteList>
-  </pattern>
-  <pattern>
-   <name>timeline 2</name>
-   <category>not_categorized</category>
-   <size>96</size>
-   <noteList>
     <note>
-     <position>0</position>
+     <position>96</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3339,7 +3484,7 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>16</position>
+     <position>112</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3351,7 +3496,7 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>48</position>
+     <position>144</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3363,7 +3508,7 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>80</position>
+     <position>176</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3379,7 +3524,7 @@
   <pattern>
    <name>kick 1</name>
    <category>not_categorized</category>
-   <size>96</size>
+   <size>192</size>
    <noteList>
     <note>
      <position>0</position>
@@ -3417,39 +3562,8 @@
      <instrument>0</instrument>
      <note_off>false</note_off>
     </note>
-   </noteList>
-  </pattern>
-  <pattern>
-   <name>kick 2</name>
-   <category>not_categorized</category>
-   <size>96</size>
-   <noteList>
     <note>
-     <position>0</position>
-     <leadlag>0</leadlag>
-     <velocity>0.25</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>0</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>16</position>
-     <leadlag>0</leadlag>
-     <velocity>0.82</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>0</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>48</position>
+     <position>96</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
@@ -3461,9 +3575,21 @@
      <note_off>false</note_off>
     </note>
     <note>
-     <position>80</position>
+     <position>128</position>
      <leadlag>0</leadlag>
-     <velocity>0.41</velocity>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>160</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -3475,31 +3601,417 @@
    </noteList>
   </pattern>
   <pattern>
-   <name>Pattern 9</name>
+   <name>long bell kick</name>
    <category>not_categorized</category>
    <size>192</size>
-   <noteList/>
-  </pattern>
-  <pattern>
-   <name>Pattern 10</name>
-   <category>not_categorized</category>
-   <size>192</size>
-   <noteList/>
+   <noteList>
+    <note>
+     <position>0</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>32</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>64</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>96</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+   </noteList>
   </pattern>
  </patternList>
  <virtualPatternList/>
  <patternSequence>
   <group>
-   <patternID>snare 1</patternID>
-   <patternID>ride 1</patternID>
-   <patternID>kick 1</patternID>
-   <patternID>timeline 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>intro</patternID>
   </group>
   <group>
    <patternID>ride 1</patternID>
-   <patternID>snare 2</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
    <patternID>kick 1</patternID>
-   <patternID>timeline 2</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>bridge</patternID>
+  </group>
+  <group>
+   <patternID>bridge</patternID>
+   <patternID>long bell kick</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>bridge</patternID>
+   <patternID>long bell kick</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>bridge</patternID>
+   <patternID>long bell kick</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>bridge</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>bridge</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>bridge</patternID>
+   <patternID>kick 1</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>verse</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>chorus</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>kick 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>ride 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>kick 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>kick 1</patternID>
+   <patternID>intro</patternID>
+  </group>
+  <group>
+   <patternID>ride 1</patternID>
+   <patternID>long bell timeline</patternID>
+   <patternID>kick 1</patternID>
+   <patternID>intro</patternID>
   </group>
  </patternSequence>
  <ladspa>
